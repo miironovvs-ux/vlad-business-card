@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Влад — менеджер по продажам международных решений."
+    />
+    <title>Влад — менеджер по продажам</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero__inner">
+          <p class="eyebrow">Международные решения</p>
+          <h1 id="hero-title">Влад<br /><span>Менеджер по продажам</span></h1>
+          <p class="hero__lead">
+            Помогаю клиентам уверенно проводить международные расчёты и находить решение под конкретную задачу.
+          </p>
+          <a class="button button--primary" href="#help">Познакомиться <span aria-hidden="true">↓</span></a>
+          <p class="hero__note">Переводы · расчёты · сделки</p>
+        </div>
+        <div class="hero__shape hero__shape--one" aria-hidden="true"></div>
+        <div class="hero__shape hero__shape--two" aria-hidden="true"></div>
+      </section>
+
+      <section class="section section--help" id="help" aria-labelledby="help-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Чем помогаю</p>
+            <h2 id="help-title">Когда деньги и сроки<br />не должны зависеть от границ.</h2>
+          </div>
+          <div class="cards">
+            <article class="card reveal">
+              <p class="card__number">01</p>
+              <h3>Международные переводы</h3>
+              <p>Подбираю способ перевода для личных и деловых задач по всему миру.</p>
+            </article>
+            <article class="card reveal">
+              <p class="card__number">02</p>
+              <h3>Оплаты за рубежом</h3>
+              <p>Помогаю оплачивать недвижимость, автомобили, услуги, лечение и путешествия.</p>
+            </article>
+            <article class="card reveal">
+              <p class="card__number">03</p>
+              <h3>Сделка от начала до конца</h3>
+              <p>Разбираюсь в запросе, объясняю условия и сопровождаю до результата.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="container about__grid">
+          <div class="about__label reveal">
+            <p class="eyebrow">Обо мне</p>
+            <span class="about__line" aria-hidden="true"></span>
+          </div>
+          <div class="about__content reveal">
+            <h2 id="about-title">Сначала понимаю задачу.<br />Потом предлагаю решение.</h2>
+            <p>
+              Я работаю с клиентами, для которых важны ясность, скорость и надёжный результат. Без лишних обещаний: честно оцениваю ситуацию и помогаю пройти путь от первого вопроса до сделки.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+        <div class="container contacts__box reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2 id="contacts-title">Обсудим вашу задачу?</h2>
+          <p>Напишите в Telegram — отвечу и сориентирую по следующим шагам.</p>
+          <a class="button button--telegram" href="https://t.me/cdx_go" target="_blank" rel="noreferrer">
+            Написать в Telegram <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>Влад</span>
+        <span>© <span id="year"></span></span>
+      </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Наверх" title="Наверх">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
